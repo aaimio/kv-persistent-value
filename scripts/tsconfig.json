@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "lib": ["esnext"],
+      "alwaysStrict": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "preserveConstEnums": true,
+      "moduleResolution": "node",
+    },
+    "include": ["."],
+  }
+  

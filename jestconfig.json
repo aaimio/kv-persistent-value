@@ -1,0 +1,8 @@
+{
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "testRegex": "/__tests__/.*\\.test\\.ts$",
+  "collectCoverageFrom": ["./src/**/*.{ts,js}"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "<rootDir>/src/ajv.js", "<rootDir>/src/index.ts"]
+}

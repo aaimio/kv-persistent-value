@@ -1,0 +1,16 @@
+name = "kv-persistent-value"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-01-14"
+kv_namespaces = [
+    { binding = "kvPersistentValues", id = "5b84bb23daec445d8cf191d7c5b97333" },
+]
+
+[build]
+command = "yarn install && yarn build"
+
+[build.upload]
+format = "service-worker"
